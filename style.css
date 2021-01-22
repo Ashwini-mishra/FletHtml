@@ -1,0 +1,660 @@
+body{
+    padding: 0px;
+    margin:0px;
+    font-family: 'Fraunces', serif;
+}
+a{
+    color: coral;
+}
+a:hover {
+  background-color: green;
+  color:black
+}
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: orange;
+  transform: translateY(4px);
+}
+.butt:hover {background-color: #3e8e41}
+
+.butt:active {
+  background-color: orange;
+  transform: translateY(4px);
+}
+.butt1:hover {background-color: #3e8e41}
+
+.butt1:active {
+  background-color: orange;
+  color: black;
+  transform: translateY(4px);
+}
+.container{
+    width:1000px;
+    margin: 0px auto;
+}
+.top-nav{
+    display: flex;
+    padding: 5px;
+    width:100%;
+}
+.middle-nav
+{
+  flex: 1;
+}
+
+.right-Topnav{
+ align-content: flex-start;
+ margin: 13px 0px;
+ width:20%;
+}
+.left-Topnav{
+    display: flex;
+    width:20%;
+}
+.contact{
+    align-self: end;
+    color:brown;
+}
+.login{
+    color:brown;
+    margin: 0px 10px;
+    box-shadow: -1px 0px 0px 0px ;
+}
+.header{
+    background-color:rgb(34, 22, 22)  ;
+    border:1px solid black;
+}
+.navBar{
+  background-color:rgba(19, 18, 18, 0.88); ;
+  border:1px solid black;
+}
+.menu{
+  width: 60%;
+  margin: 14px 0px;
+  float: right; 
+  align-self: center;
+}
+.logo{
+  width:40%;
+  display: flex;
+}
+p.text{
+  color: orangered;
+  font-size: large;
+  margin: 17px 10px;
+}
+li.cool{
+  font-family: Arial, Helvetica, sans-serif;
+   margin: 0px 10px;
+   font-weight: bold;
+}
+.fa{
+  margin: 0px 7px;
+}
+
+li {
+   float: left;
+   }
+
+li a {
+   display: block;
+   color: black;
+   text-align: center;
+   padding: 1px 16px;
+   text-decoration: none;
+   color: aliceblue;
+   }
+ul {
+       list-style-type: none;
+       overflow: hidden;
+       margin: 0px;
+       float: right;
+   }
+.nav{
+  display: flex;
+}   
+.banner{
+  background-size: 100% 100%;
+  padding: 50px;
+  background-image: url("https://www.wallpapertip.com/wmimgs/91-919895_beach-fireworks-pink-hd-wallpaper-banner-wallpaper-hd.jpg");
+}
+.text1{
+  color: white;
+}
+.text3{
+  text-align: center;
+  color:orangered;
+}
+h1.text{
+  margin:0px;
+  padding: 0px;
+  color: orangered !important;
+}
+.button{
+  background-color: #000;
+    border: 1px white solid;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 7px;
+    box-shadow: 6px 0px 13px 0px black;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid orangered;
+  width: 30%;
+  text-align: center;
+  box-shadow: 0px 0px 15px 0px;
+}
+div.gallery img {
+  width: 70px;
+  height: auto;
+  margin: 20px;
+}
+.property{
+  display: flex;
+  margin: 20px 0px;
+}
+.desc{
+  font-size: 10px;
+  text-align: center;
+  padding: 10px;
+  background-color: orangered;
+}
+.blog{
+  background-size: 100% 100%;
+  background-image: url("https://wallpapercave.com/wp/wp3203374.jpg");
+  padding: 50px;
+  height: auto;
+  margin: 20px 0px 0px 0px;
+}
+.row{
+  display: flex;
+}
+.column1{
+  width:22%;
+  height: 440px;
+  padding: 30px 0px;
+  margin:0px 10px;
+  text-align: center;
+  border: 1px solid black;
+}
+.column2{
+  width:22%;
+  height: 440px;
+  padding: 30px 0px;
+  margin:0px 10px;
+  text-align: center;
+  border: 1px solid black;
+}
+.column3{
+  width:22%;
+  margin:0px 10px;
+  padding: 30px 0px;
+  height: 440px;
+  text-align: center;
+  border: 1px solid black;
+}
+.column4{
+  width:22%;
+  margin:0px 10px;
+  padding: 30px 0px;
+  height: 440px;
+  text-align: center;
+  border: 1px solid black;
+}
+.butt{
+  color: black;
+  width:90px;
+  padding: 10px 18px;
+  border-radius: 7px;
+  background-color: violet;
+  box-shadow: 6px 0px 13px 0px black;
+}
+.lowerBlog{
+  background-size: 100% 100%;
+  background-image: url("https://freedesignfile.com/upload/2016/12/Green-leaf-banner-HD-pictures.jpg");
+  padding: 50px;
+  height: auto;
+}
+.lower{
+  text-align: center;
+}
+.lowerTxt{
+  text-align: center;
+  font-size: 10px;
+}
+span{
+  color: brown;
+  font-weight: bold;
+}
+.services{
+  margin: 20px 0px;
+  text-align: center;
+  color: teal;
+  padding: 20px;
+  box-shadow: 3px 0px 8px 0px black;
+}
+.Service-row{
+  display: flex;
+  margin: 20px 0px;
+}
+.Service-col-left{
+  width:50%;
+}
+.Service-col-right{
+  width:50%;
+}
+.services-table{
+  display: flex;
+}
+.butt1{
+  width:100px;
+  height: 40px;
+ color: tomato;
+ box-shadow: 6px 0px 13px 0px black;
+}
+.our-client{
+  background-size: 100% 100%;
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200530/pngtree-colorful-banner-red-and-yellow-background-image_337446.jpg");
+  padding: 50px;
+  height: auto;
+}
+.features{
+  margin: 40px;
+}
+.client{
+  text-align: center;
+}
+.col-1{
+  margin: 0px 10px;
+  width:30%;
+  text-align: center;
+}
+.col-2{
+  margin: 0px 10px;
+  width:30%;
+  text-align: center;
+}
+.col-3{
+  margin: 0px 10px;
+  width:30%;
+}
+.column-part-1{
+  width:22%;
+  margin:0px 10px;
+  box-shadow: 0px 0px 15px 0px white;
+  text-align: center;
+  padding: 15px 0px;
+  border: 1px solid black;
+}
+.column-part-2{
+  width:22%;
+  margin:0px 10px;
+  padding: 15px 0px;
+  box-shadow: 0px 0px 15px 0px white;
+  text-align: center;
+  border: 1px solid black;
+}
+.column-part-3{
+  width:22%;
+  margin:0px 10px;
+  text-align: center;
+  padding: 15px 0px;
+  box-shadow: 0px 0px 15px 0px white;
+  border: 1px solid black;
+}
+.column-part-4{
+  width:22%;
+  margin:0px 10px;
+  padding: 15px 0px;
+  box-shadow: 0px 0px 15px 0px white;
+  text-align: center;
+  border: 1px solid black;
+}
+.fig-facts{
+  background-image: url("https://images8.alphacoders.com/107/1079961.jpg");
+  background-size: 100% 100%;
+  padding: 50px;
+  height: auto;
+}
+.footer{
+  background-color: black;
+  padding: 20px;
+}
+h6{
+  color:white;
+}
+.column-category-1{
+  width:22%;
+
+}
+.column-category-2{
+  width:22%;
+
+}
+.column-category-3{
+  width:22%;
+
+}
+.column-category-4{
+  width:22%;
+
+}
+.partners{
+  margin: 20px 0px;
+  box-shadow: 6px 0px 8px 0px black;
+  padding: 20px;
+}
+
+@media screen and (min-width:320px) and (max-width: 767px) {
+
+  body{
+    padding: 0px;
+    margin:0px;
+    font-family: 'Fraunces', serif;
+}
+a{
+    color: coral;
+}
+.container{
+    width:100%;
+    margin: 0px auto;
+}
+.top-nav{
+    display: block;
+    padding: 0px;
+    width:100%;
+}
+.middle-nav
+{
+  flex: none;
+}
+
+.right-Topnav{
+ align-content: none;
+ margin:0px;
+ padding: 10px 0px;
+ width:100%;
+ text-align: center;
+}
+.left-Topnav{
+  display: none;
+    justify-content: space-evenly;
+    width:100%;
+}
+.contact{
+    align-self: none;
+    color:brown;
+}
+.login{
+    color:brown;
+}
+.header{
+    background-color:rgb(34, 22, 22)  ;
+    border:1px solid black;
+}
+.navBar{
+  background-color:rgba(19, 18, 18, 0.88); ;
+  border:1px solid black;
+}
+.menu{
+  width: 100%;
+  margin: 14px 0px;
+  float: none;
+  text-align: center; 
+  padding: 10px 0px;
+}
+.logo{
+  width:100%;
+  display: block;
+  text-align: center;
+  box-shadow: 1px 3px 14px 1px;
+  padding: 10px 0px;
+}
+p.text{
+  color: orangered;
+  font-size: large;
+}
+li.cool{
+  font-family: Arial, Helvetica, sans-serif;
+   margin: 0px;
+   font-weight: bold;
+}
+
+li {
+   float: none;
+   }
+
+li a {
+   display: block;
+   color: black;
+   text-align: center;
+   padding: 0px;
+   text-decoration: none;
+   color: aliceblue;
+   }
+ul {
+       list-style-type: none;
+       overflow: hidden;
+       margin: 0px;
+       float: none;
+       padding: 0px;
+   }
+.nav{
+  display: block;
+}   
+.banner{
+  background-size: 100% 100%;
+  padding: 10px;
+  background-image: url("https://www.wallpapertip.com/wmimgs/91-919895_beach-fireworks-pink-hd-wallpaper-banner-wallpaper-hd.jpg");
+}
+.text1{
+  color: white;
+}
+.text3{
+  text-align: center;
+  color:orangered;
+}
+h1.text{
+  margin:0px;
+  padding: 0px;
+  color: black !important;
+}
+.button{
+  background-color: black; 
+  border: 1px white solid;
+  color: white;
+  padding: 10px 9px;
+}
+div.gallery {
+  margin: 0px 0px 10px 0px;
+  border: 1px solid orangered;
+  width: 100%;
+  text-align: center;
+}
+div.gallery img {
+  width: 70px;
+  height: auto;
+}
+.property{
+  display: block;
+  margin: 19px 10px;
+}
+.desc{
+  font-size: 10px;
+  text-align: center;
+  padding: 5px;
+  background-color: orangered;
+}
+.blog{
+  background-size: 100% 100%;
+  background-image: url("https://wallpapercave.com/wp/wp3203374.jpg");
+  padding: 11px;
+  height: auto;
+  margin: 20px 0px 0px 0px;
+}
+.row{
+  display: block;
+  padding: 10px;
+}
+.column1{
+  width:100%;
+  margin: 0px 0px 10px 0px;
+  text-align: center;
+  border: 1px solid black;
+}
+.column2{
+  width:100%;
+  margin: 0px 0px 10px 0px;
+  text-align: center;
+  border: 1px solid black;
+}
+.column3{
+  width:100%;
+  margin: 0px 0px 10px 0px;
+  text-align: center;
+  border: 1px solid black;
+}
+.column4{
+  width:100%;
+  margin: 0px 0px 10px 0px;
+  text-align: center;
+  border: 1px solid black;
+}
+.butt{
+  color: orangered;
+  width:50%;
+  
+}
+.lowerBlog{
+  background-size: 100% 100%;
+  background-image: url("https://freedesignfile.com/upload/2016/12/Green-leaf-banner-HD-pictures.jpg");
+  padding: 0px;
+  height: auto;
+}
+.lower{
+  text-align: center;
+  padding: 5px;
+}
+.lowerTxt{
+  text-align: center;
+  font-size: 10px;
+  margin: 0px;
+  padding: 10px;
+}
+span{
+  color: brown;
+  font-weight: bold;
+}
+.services{
+  margin: 10px 0px;
+  text-align: center;
+  color: teal;
+  padding: 0px;
+}
+.Service-row{
+  display: none;
+  margin: 0px;
+}
+.Service-col-left{
+  width:100%;
+}
+.Service-col-right{
+  width:100%;
+}
+.services-table{
+  display: none;
+}
+.butt1{
+  width:33%;
+  height: 40px;
+ color: tomato;
+}
+.our-client{
+  background-size: 100% 100%;
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200530/pngtree-colorful-banner-red-and-yellow-background-image_337446.jpg");
+  padding: 0px;
+  height: auto;
+}
+.features{
+  margin: 0px;
+}
+.client{
+  text-align: center;
+  padding: 15px;
+}
+.col-1{
+  margin: 0px;
+  width:100%;
+  text-align: center;
+}
+.col-2{
+  margin: 0px ;
+  width:100%;
+  text-align: center;
+}
+.col-3{
+  margin: 0px;
+  width:100%;
+}
+.column-part-1{
+  width:100%;
+  margin: 10px 0px;
+  text-align: center;
+  border: 1px solid black;
+}
+.column-part-2{
+  width:100%;
+  margin: 10px 0px;
+  text-align: center;
+  border: 1px solid black;
+}
+.column-part-3{
+  width:100%;
+  margin: 10px 0px;
+  text-align: center;
+  border: 1px solid black;
+}
+.column-part-4{
+  width:100%;
+  margin: 10px 0px;
+  text-align: center;
+  border: 1px solid black;
+}
+.fig-facts{
+  background-image: url("https://images8.alphacoders.com/107/1079961.jpg");
+  background-size: 100% 100%;
+  padding: 0px;
+  height: auto;
+}
+.footer{
+  background-color: black;
+}
+h6{
+  color: black;
+  padding: 10px;
+}
+.column-category-1{
+  width:100%;
+
+}
+.column-category-2{
+  width:100%;
+
+}
+.column-category-3{
+  width:100%;
+
+}
+.column-category-4{
+  width:100%;
+
+}
+h2{
+  margin: 5px 0px;
+}
+
+}
+
+
